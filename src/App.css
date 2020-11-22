@@ -2,3 +2,11 @@
     margin : 0px;
     padding: 0px;
 }
+.input::placeholder {
+    color: #938E8E;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
