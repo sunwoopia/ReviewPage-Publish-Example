@@ -8,7 +8,7 @@ class ReviewPicture extends React.Component {
     render(){
         return (
             <div style={styles.ReviewPicture}>
-                <div style={styles.addPic}> <img style={styles.cameraCss} src={camera}/>사진추가</div>
+                <div style={styles.addPic}> <img style={styles.cameraCss} src={camera}/>사진 추가</div>
                 <div style={styles.reviewImg}><img style={styles.xbtn} src={xbutton}></img></div>
                 <div style={styles.reviewImg}><img style={styles.xbtn} src={xbutton}></img></div>
             </div>
@@ -31,6 +31,10 @@ const styles = {
         border : "1px solid #DDDDDD",
         borderRadius : 3,
         margin : "25px 6px 30px 6px",
+        fontSize : 12,
+        fontWeight : 500,
+        fontFamily : "Roboto",
+        color : "#333333",
     },
     reviewImg : {
         width : 102,
