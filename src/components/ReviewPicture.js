@@ -5,6 +5,7 @@ import camera from '../images/camera.png';
 
 
 class ReviewPicture extends React.Component {
+
     render(){
         return (
             <div style={styles.ReviewPicture}>
